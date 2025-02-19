@@ -16,7 +16,7 @@ class Player {
 
     // 画像を読み込む場合
     this.image = new Image();
-    this.image.src = "../assets/player.png";
+    this.image.src = "./assets/player.png";
   }
 
   move(direction) {
