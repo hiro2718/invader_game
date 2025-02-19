@@ -11,7 +11,7 @@ class Enemy {
     this.moveRight = true;
 
     this.image = new Image();
-    this.image.src = "../assets/enemy.png";
+    this.image.src = "./assets/enemy.png";
   }
 
   update() {
