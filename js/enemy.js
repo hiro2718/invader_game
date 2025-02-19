@@ -63,7 +63,7 @@ class Boss {
 
     // ボス用画像
     this.image = new Image();
-    this.image.src = "../assets/boss.png";
+    this.image.src = "./assets/boss.png";
   }
 
   update() {
